@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/pexels-pixabay-89778.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+/* .form-inline {
+    border: 1px solid red;
+    margin: 0 auto;
+} */
+
+.form-group {
+    margin: 0 auto;
+    gap: 15px;
+    /* width: 95%; */
+    /* border: 1px solid green; */
+}
+
+#search {
+    width: 500px;
+}
+
+.form-group * {
+    margin: 0 auto;
+}
